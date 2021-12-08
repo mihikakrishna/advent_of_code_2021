@@ -16,7 +16,7 @@ def endGame(board):
         
 
 def readInput():
-    f = open("4.txt", "r")
+    f = open("day4/4.txt", "r")
     moves = [str(x) for x in f.readline().split(",")]
     boards = []
     while(f.readline()):

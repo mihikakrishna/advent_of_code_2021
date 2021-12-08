@@ -54,7 +54,7 @@ def Binary_Diagnostic2():
     cols = len(lines[0])
     o2_rate = o2(d,"",cols,lines)
     lines, d = inputParser()
-    file = open("3.txt", "r")
+    file = open("day3/3.txt", "r")
     co2_rate = co2(d,"", cols, lines)
 
     o2_rate = int(o2_rate, 2)

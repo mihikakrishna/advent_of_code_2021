@@ -1,7 +1,7 @@
 def Binary_Diagnostic():
     d = {}
     
-    f = open("3.txt", "r")
+    f = open("day3/3.txt", "r")
     for i in range(12): d[i] = ""
     for line in f:
         for i in range(12):

@@ -1,5 +1,5 @@
 def readInput():
-    f = open("5.txt","r")
+    f = open("day5/5.txt","r")
     lines = []
     for line in f:
         lines.append(line.rstrip().split(" -> "))

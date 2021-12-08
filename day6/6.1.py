@@ -1,5 +1,5 @@
 def sim():
-    f = open("6.txt","r")
+    f = open("day6/6.txt","r")
     states = list(map(int,list(f.readline().rstrip().split(","))))
 
     i = 0

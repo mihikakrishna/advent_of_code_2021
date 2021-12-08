@@ -1,5 +1,5 @@
 def findDepth():
-    f = open("2.txt", "r")
+    f = open("day2/2.txt", "r")
     x,y,aim = 0,0,0
     
     for line in f:

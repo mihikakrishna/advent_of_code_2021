@@ -1,4 +1,5 @@
 import string
+
 def decode_pattern(str):
     input = "".join(str)
     signals = dict(zip(string.ascii_lowercase, [0]*8))
@@ -17,6 +18,7 @@ def decode_pattern(str):
 
 
     # decode each segment individually
+    
     for c in input:
         if input.count(c) == 4: 
             signals['e'] = c
@@ -65,7 +67,7 @@ def decode_nums(str,displays):
         
 
 def segment_search():
-    f = open("8.txt","r")
+    f = open("day8/8.txt","r")
     count = 0
     for line in f:
         in1,in2 = line.rstrip().split("|")

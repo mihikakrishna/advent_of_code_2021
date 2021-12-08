@@ -1,5 +1,5 @@
 def segment_search():
-    f = open("8.txt","r")
+    f = open("day8/8.txt","r")
     count = 0
     for line in f:
         input = line.rstrip().split("|")[1].split()
