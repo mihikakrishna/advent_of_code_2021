@@ -14,7 +14,7 @@ def decode_pattern(str):
     # 5  6
     # 7777
 
-# a: 8, b: 6, c: 8, d: 7, e: 4, f: 9, g: 7
+    # a: 8, b: 6, c: 8, d: 7, e: 4, f: 9, g: 7
 
 
     # decode each segment individually
